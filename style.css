@@ -165,7 +165,7 @@ section.title-desc-links-cont {
 }
 
 .pain-slider::-webkit-slider-thumb {
-    background: blue;
+    background: #007BFF;
     cursor: pointer;
     height: 20px;
     width: 20px;
