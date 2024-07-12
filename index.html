@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claims Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="Block LLP.png">
+        <ul class="nav-bar">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Services</a></li>
+            <li><a>Why Choose Us</a></li>
+            <li><a>Contact</a></li>
+        </ul>
+        <div class="phone-number">
+            <img src="icon-phone-bg.png">
+            <p>(818) 745-7777</p>
+        </div>
+    </header>
+    
+    <main>
+        <section class="title-desc-links-cont"> 
+            <div class="title-desc"> 
+                <h1>Brain Injury Settlement Calculator</h1>
+                <p>The Brain Injury Settlement Calculator is a valuable tool used to determine the fair settlement value for individuals who have suffered brain injuries due to various reasons. It calculates the monetary compensation one should receive for the pain, suffering, medical bills, and lost income resulting from the injury.</p>
+            </div>
+            <div class="calc-links-cont">
+                <ul> Calculators
+                    <li>Burn Injury Calculator</li>
+                    <li>Wrong Death Calculator</li>
+                    <li>Pain and Suffering Calculator</li>
+                    <li>Accident Settlement Calculator</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="form-container">
+            <h2>Calculator</h2>
+            <div class="form-row">
+                <label for="medical-expenses">Estimated Total Medical Expenses ($):</label>
+                <input type="text" id="medical-expenses" name="medical-expenses">
+            </div>
+            <!-- <div class="form-row">
+                <span class="explanation">Please provide the total amount of medical expenses incurred.</span>
+            </div> -->
+            <div class="form-row">
+                <label for="loss-of-wages">Estimated Total Loss of Wages ($):</label>
+                <input type="text" id="loss-of-wages" name="loss-of-wages">
+            </div>
+            <div class="form-row">
+                <label for="future-medical-expenses">Estimated Total Loss of Wages ($):</label>
+                <input type="text" id="future-medical-expenses" name="future-medical-expenses">
+            </div>
+            <div class="form-row">
+                <label for="pain-slider">Pain Slider:</label>
+                <div class="slider-container"> 
+                <input type="range" min="100" max="10000" value="100" id="pain-slider" name="pain-slider" class="pain-slider">
+                <span id="slider-value">100</span></div>
+            </div>
+            <div class="form-row submit-row">
+                <input type="submit" value="Submit">
+            </div>
+        </div>
+    </main>
+<script  src="index.js"></script>    
+</body>
+</html>
