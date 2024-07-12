@@ -211,3 +211,44 @@ section.title-desc-links-cont {
     padding: 2%;
     color: white;
 }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .title-desc-links-cont {
+        flex-direction: column;
+    }
+
+    .title-desc {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .calc-links-cont {
+        margin-bottom: 20px;
+    }
+
+    .form-container {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .phone-number {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .phone-number img {
+        margin-bottom: 10px;
+    }
+}
